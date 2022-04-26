@@ -97,7 +97,7 @@
   ```
   
 - 추가 프로퍼티가 존재 할 경우
-  ```
+  ```javascript
   interface SquareConfig {
     color?: string;
     width?: number;
@@ -109,7 +109,7 @@
 명시적인 implements 절 없이, 인터페이스가 요구하는 형태를 사용하는 것만으로도 인터페이스를 구현할 수 있습니다. https://typescript-kr.github.io/pages/tutorials/typescript-in-5-minutes.html
   
 ### 2. 초과 프로퍼티 검사
-  ```
+  ```javascript
   interface LabeledValue {
     label: string;
   }
