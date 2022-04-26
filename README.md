@@ -120,10 +120,17 @@
 
   printLabel({ size: 10, label: "Size 10 Object" }); 
 
+  
+  
   let myObj = { size: 10, label: "Size 10 Object" }; 
   printLabel(myObj);
   
+  
+  
   printLabel({ size: 10, label: "Size 10 Object" } as LabeledValue); 
+  
+  
+  
   
   let myObj :  LabeledValue = { size: 10, label: "Size 10 Object" }; 
   printLabel(myObj);
