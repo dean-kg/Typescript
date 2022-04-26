@@ -118,14 +118,14 @@
     console.log(labeledObj.label);
   }
 
-  printLabel({ size: 10, label: "Size 10 Object" }); // 불가능
+  printLabel({ size: 10, label: "Size 10 Object" }); 
 
-  let myObj = { size: 10, label: "Size 10 Object" }; // 가능
+  let myObj = { size: 10, label: "Size 10 Object" }; 
   printLabel(myObj);
   
-  printLabel({ size: 10, label: "Size 10 Object" } as LabeledValue); // 가능
+  printLabel({ size: 10, label: "Size 10 Object" } as LabeledValue); 
   
-  let myObj :  LabeledValue = { size: 10, label: "Size 10 Object" }; //불가능
+  let myObj :  LabeledValue = { size: 10, label: "Size 10 Object" }; 
   printLabel(myObj);
   네가지 케이스의 차이.?
 
