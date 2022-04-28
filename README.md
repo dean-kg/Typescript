@@ -104,6 +104,29 @@
     [propName: string]: any;
   }
   ```
+  
+  
+### 함수
+  아래와 같이 외부변수를 참조하는 것을 `capture`한다고 표현함
+  ```javascript
+  let z = 100;
+
+  function addToZ(x, y) {
+    return x + y + z;
+  }
+  ```
+  
+  여러개의 매개변수를 받은때
+  ```
+  function buildName(firstName: string, ...restOfName: string[]) {
+    return firstName + " " + restOfName.join(" ");
+}
+
+// employeeName 은 "Joseph Samuel Lucas MacKinzie" 가 될것입니다.
+let employeeName = buildName("Joseph", "Samuel", "Lucas", "MacKinzie");
+  ```
+  
+  
 ## 질문
 ### 1. Interfaces
 명시적인 implements 절 없이, 인터페이스가 요구하는 형태를 사용하는 것만으로도 인터페이스를 구현할 수 있습니다. https://typescript-kr.github.io/pages/tutorials/typescript-in-5-minutes.html
