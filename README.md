@@ -117,7 +117,7 @@
   ```
   
   여러개의 매개변수를 받은때
-  ```
+  ```javascript
   function buildName(firstName: string, ...restOfName: string[]) {
     return firstName + " " + restOfName.join(" ");
 }
@@ -125,6 +125,9 @@
 // employeeName 은 "Joseph Samuel Lucas MacKinzie" 가 될것입니다.
 let employeeName = buildName("Joseph", "Samuel", "Lucas", "MacKinzie");
   ```
+  `...`을 사용하여 리스트 형식의 인자를 받을 수 있음
+  
+  - `this` 타입에 대한 이해 추가로 필요
   
   
 ## 질문
