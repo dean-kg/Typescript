@@ -130,6 +130,12 @@ let employeeName = buildName("Joseph", "Samuel", "Lucas", "MacKinzie");
   - `this` 타입에 대한 이해 추가로 필요
   
   
+### 리터럴 표기법
+  - 리터럴? : 데이터 값 그자체를 의미
+  ```javascript
+  const a = 1; // 1은 리터럴 , a 는 상수
+  ```
+  
 ## 질문
 ### 1. Interfaces
 명시적인 implements 절 없이, 인터페이스가 요구하는 형태를 사용하는 것만으로도 인터페이스를 구현할 수 있습니다. https://typescript-kr.github.io/pages/tutorials/typescript-in-5-minutes.html
