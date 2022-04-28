@@ -135,6 +135,12 @@ let employeeName = buildName("Joseph", "Samuel", "Lucas", "MacKinzie");
   ```javascript
   const a = 1; // 1은 리터럴 , a 는 상수
   ```
+  - 문자열 리터럴 타입
+  enum과 같은 표기도 가능
+  ```javascript
+  type Easing = "ease-in" | "ease-out" | "ease-in-out";
+  ```
+  
   
 ## 질문
 ### 1. Interfaces
