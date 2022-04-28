@@ -141,6 +141,17 @@ let employeeName = buildName("Joseph", "Samuel", "Lucas", "MacKinzie");
   type Easing = "ease-in" | "ease-out" | "ease-in-out";
   ```
   
+### 유니언 교차타입
+  - 
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
 ## 질문
 ### 1. Interfaces
